@@ -51,5 +51,7 @@ route.post('/signin',(req,res)=>{
    
     
 })
-
+route.get('/',(req,res)=>{
+    res.send('todo list backend home page')
+})
 module.exports=route
